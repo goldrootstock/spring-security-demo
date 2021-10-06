@@ -9,7 +9,9 @@ public class LoginConroller {
 	@GetMapping("/showMyLoginPage")
 	public String showMyLoginPage() {
 		
-		return "plain-login";
+		//  "plain-login";
+		
+		return "fancy-login";
 	}
 
 }
